@@ -42,6 +42,9 @@
     "lint:types": "tsc --noEmit",
     "lint": "concurrently yarn:lint:*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "framer-motion": "^2.9.4",
+    "react": "^17.0.1"
+  },
   "peerDependencies": {}
 }
