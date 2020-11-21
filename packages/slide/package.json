@@ -1,7 +1,7 @@
 {
-  "name": "@react-konfirm/sample",
+  "name": "@react-konfirm/slide",
   "version": "0.0.1",
-  "description": "This is a sample package generated using plop",
+  "description": "",
   "keywords": [],
   "author": "Inácio Schweller <iscmendonca@gmail.com>",
   "homepage": "https://github.com/schweller/react-konfirm#readme",

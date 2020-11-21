@@ -35,7 +35,7 @@ async function createPackage() {
       if (!answers) return actions;
 
       const { name, description, isScoped } = answers as Answers;
-      const packageName = isScoped ? `@scope/${name}` : name;
+      const packageName = isScoped ? `@react-konfirm/${name}` : name;
 
       actions.push({
         type: "addMany",
