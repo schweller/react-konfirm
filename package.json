@@ -23,8 +23,8 @@
     "build": "lerna run build",
     "prerelease": "yarn build",
     "release": "changeset publish",
-    "test": "lerna run test",
-    "lint": "lerna run lint",
+    "test": "lerna run test --no-private --stream",
+    "lint": "lerna run lint --no-private --stream",
     "plop": "ts-node -P tsconfig.node.json scripts/plopfile.ts"
   },
   "dependencies": {
