@@ -25,7 +25,8 @@
     "release": "changeset publish",
     "test": "lerna run test --no-private --stream",
     "lint": "lerna run lint --no-private --stream",
-    "plop": "ts-node -P tsconfig.node.json scripts/plopfile.ts"
+    "plop": "ts-node -P tsconfig.node.json scripts/plopfile.ts",
+    "storybook": "start-storybook -p 6006 --no-dll"
   },
   "dependencies": {
     "@babel/cli": "^7.11.6",
@@ -40,6 +41,10 @@
     "@commitlint/config-conventional": "^9.1.2",
     "@emotion/react": "^11.1.1",
     "@manypkg/cli": "^0.16.1",
+    "@storybook/addon-actions": "^6.1.2",
+    "@storybook/addon-essentials": "^6.1.2",
+    "@storybook/addon-links": "^6.1.2",
+    "@storybook/react": "^6.1.2",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.7.8",
     "@types/react": "^17.0.0",
@@ -48,6 +53,7 @@
     "@typescript-eslint/parser": "^4.7.0",
     "all-contributors-cli": "6.17.4",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.1",
     "concurrently": "^5.3.0",
     "cross-env": "^7.0.2",
     "eslint": "^7.10.0",
@@ -67,6 +73,7 @@
     "lint-staged": "^10.4.2",
     "plop": "^2.7.4",
     "prettier": "^2.1.2",
+    "react-dom": "^17.0.1",
     "shelljs": "^0.8.4",
     "ts-jest": "26.4.0",
     "ts-node": "8.0.3",
