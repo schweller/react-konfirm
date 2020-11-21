@@ -1,10 +1,10 @@
 {
-  "name": "oss-monorepo-starter",
+  "name": "react-konfirm",
   "version": "1.0.0",
   "private": "true",
   "license": "MIT",
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "description": "Template for setting up a TypeScript monorepo",
+  "author": "Inácio Schweller <iscmendonca@gmail.com>",
+  "description": "Confirmation action buttons for React",
   "workspaces": [
     "packages/*",
     "examples/*",

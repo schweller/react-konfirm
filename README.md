@@ -1,4 +1,4 @@
-# OSS Monorepo TypeScript Starter
+# React Konfirm
 
 ## Contributors ✨
 

@@ -1,10 +1,10 @@
 {
-  "name": "sample",
+  "name": "@react-konfirm/sample",
   "version": "0.0.1",
   "description": "This is a sample package generated using plop",
   "keywords": [],
-  "author": "Segun Adebayo <sage@adebayosegun.com>",
-  "homepage": "https://github.com/segunadebayo/oss-monorepo-starter#readme",
+  "author": "Inácio Schweller <iscmendonca@gmail.com>",
+  "homepage": "https://github.com/schweller/react-konfirm#readme",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/segunadebayo/oss-monorepo-starter.git"
+    "url": "git+https://github.com/schweller/react-konfirm.git"
   },
   "bugs": {
-    "url": "https://github.com/segunadebayo/oss-monorepo-starter/issues"
+    "url": "https://github.com/schweller/react-konfirm/issues"
   },
   "scripts": {
     "prebuild": "rm -rf dist",
